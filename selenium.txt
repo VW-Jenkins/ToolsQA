@@ -1,0 +1,104 @@
+Pre: Install Firefox browser
+1. Install vs, create a console project
+2. Install webdrive into project(Nuget management)
+3. Download broswer drive to project bin folder
+4. Install Nunit into project(Nuget management)
+5. Install Nunit adapter into project(Nuget management - Download latest version - NUnit3TestAdapter)
+
+
+---------------------------------
+Set Up Selenium WebDriver (Done)
+	Selenium Introduction
+	Download and Install Visual Studio
+	Set Up Selenium with Visual Studio in C#
+	How to write Selenium Test using NUnit Framework
+	Running Test in Safari browser (skip)
+	Running Test in Chrome browser (skip)
+	Running Test in IE Explorer- Coming Soon
+	Internet Explorer Driver Server – Coming Soon
+	Challenges with IE browser in Selenium WebDriver – Coming Soon
+	
+WebDriver Commands(Done)
+	IWebDriver Browser Commands in C#
+	Browser Navigation Commands in C#
+	WebElement Commands in C#
+	FindElements Commands in C#
+	Check Box & Radio buttons in C#
+	DropDown & Multiple Select Operations in C# (Here need install package. Openqa.selenium.support.UI)
+	WebTable Handling in C# 
+
+Locators & XPath (Done)
+	Use Of Browser Inspector
+	XPath, FireBug & FirePath
+	HTML Locators
+	Element Locator for WebDriver
+	XPath Helper Plug-in for Chrome
+	Fire-IE-Selenium – Coming Soon
+	Effective XPath
+
+Switches Alerts & Windows (Done)
+	Implicit Wait Commands in Selenium C#
+	Explict/Smart Wait Commands in Selenium C# 
+	(***DefaultWait& WebDriverWait - Here need install package. Openqa.selenium.support.UI)
+	Switch Commands in Selenium C#
+	Different types of Alerts
+	Handling Multiple Windows 
+	Handle Unexpected Alert – Coming Soon
+	Expected Condition Wait – Coming Soon
+	Handling IFrames using WebDriver – Coming Soon
+	Interacting with elements inside IFrame – Coming Soon
+
+Tips & Tricks
+	Download demo (add refers-> System.IO.Compression & System.IO.Compression.FileSystem & System.IO)
+
+OnlineStore:
+UserName: selenium_test
+UserPwd: selenium_test_pwd_11
+
+Automation Framework
+
+Set Up Project for Selenium Automation Framework in CSharp
+	1. Install VS
+	2. Create project with C# Class Library (framework)
+	3. Install Selenium.webdriver, selenium.firefox driver
+	4. Create folder named "Test Cases"
+	5. Install NUnit and Unit3TestAdapter 
+Selenium PageObjects and PageFactory in C#
+	1. PageObject Design Pattern (OpenQA.Selenium.Support.PageObjects)	
+PageFactory CacheLookup
+Optimizing Page Object Model
+	1. Initialize Elements within the Constructor
+	2. Binding methods within the PageObject class
+Encapsulate Selenium Page Objects
+	1. Encapsulation – OOPs Principle
+Manage And Read Configurations using ConfigurationManager in C#
+	1. Read Configuration using ConnectionStrings from App.Config 
+	2. Read Configuration using AppSettings from App.Config
+	3. Read Configuration from External Config file
+		3.1 Add reference, System.Configuration
+			//driver.Url = ConfigurationManager.AppSettings["URL"];
+		3.2 Set the config file: Copy to Output Directory
+Data Driven Testing
+	1. Retrieving input data from storage (C# OLEDB Connection)
+	2. Entering data in an application form
+	3. Verifying the results
+	Examples:
+	1. Create date folder and create excel file
+	2. Add the excel file into project
+	3. Create TestData class (public)
+	4. Add the reference of Dapper
+	5. Create ExcelDataAccess Class (using System.Data.OleDb;)
+	The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine.
+	Answer site: https://stackoverflow.com/questions/11179905/the-microsoft-ace-oledb-12-0-provider-is-not-registered-on-the-local-machine
+	6. Need install MDAC2010 download link: http://www.microsoft.com/en-us/download/details.aspx?id=13255
+Browser Factory or WebDriver Factory
+	1. Factory Design Pattern
+Page Generator
+	1. Page Class use "public" level
+	2. Remove private driver, need not use
+	3. Remove constructed function
+	
+WebElement Extensions Method
+	1. Create Element_Extensions class
+
+	
